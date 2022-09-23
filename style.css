@@ -22,7 +22,8 @@ header:after{
 }
 
 #buzzercounters{
-    margin-top: 5%;
+    width: 90%;
+    margin: 6% auto 0 auto;
 }
 
 .counter{
