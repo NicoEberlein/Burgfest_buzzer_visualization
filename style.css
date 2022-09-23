@@ -26,17 +26,17 @@ header:after{
 }
 
 .counter{
-    height: 400px;
-    width: 300px;
+    height: 500px;
+    width: 400px;
     margin: 0 auto 0 auto;
     border-radius: 10px;
-    font-size: 200px;
+    font-size: 300px;
     color: #FFF;
-    line-height: 400px;
+    line-height: 500px;
 }
 
 .counter_label{
-    font-size: 60px;
+    font-size: 100px;
     color: #FFF;
 }
 
