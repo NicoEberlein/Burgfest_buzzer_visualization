@@ -3,7 +3,7 @@ window.onload = function() {
 }
 
 function sendBuzzerDataRequest() {
-    sendRequest(processBuzzerData, "http://localhost:8000/data", "GET", null, new Headers());
+    sendRequest(processBuzzerData, window.location.origin + "/data", "GET", null, new Headers());
 }
 
 function processBuzzerData(data) {
