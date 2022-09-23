@@ -2,18 +2,37 @@ body{
     background-color: darkgrey;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    margin: 20px 20px 0 20px;
+    font-size: 0; /*remove white space*/
+    text-align: justify;
+}
+
+header:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.logos{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #buzzercounters{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .counter{
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     margin: 0 auto 0 auto;
     border-radius: 10px;
-    font-size: 150px;
+    font-size: 200px;
     color: #FFF;
-    line-height: 300px;
+    line-height: 400px;
 }
 
 .counter_label{
